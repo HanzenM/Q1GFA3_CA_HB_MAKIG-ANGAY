@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:#5D737E;
+}
+
+/*NAVBAR START*/
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 5vh;
+    padding: 0.75vw;
+    text-align: center;
+    background-color: #64B6AC;
+}
+
+.links, .logo, .title {
+    display: inline-block;
+    
+}
+
+.logo img {
+    border: 0.05vw solid #2F2D2E;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+}
+
+.title, .links{
+    font-weight:900;
+}
+
+.links {
+    margin: 1vw;
+    margin-top: 1.5vh;
+    float: right;
+}
+
+.logo, .title {
+    float: left;
+    margin-left: 1.5vw;
+}
+
+.title{
+    margin-top: 1vh;
+    font-size:x-large;
+}
+
+.right{
+    margin-right:5vw;
+}
+
+.links a{
+    text-decoration:none;
+}
+
+/*NAVBAR END*/
+/*FOOTER START*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height:5vh;
+    padding: 0.75vw;
+    text-align: center;
+    background-color: #912F56;
+}
+
+.copyright{
+    float:left;
+}
+
+.socials a img{
+    margin: 0.5vh;
+    background-color:white;
+    border: 0.05vw solid white;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+}
+
+.socials{
+    float: right;
+}
+
+/*FOOTER END*/
+/*HOME PAGE START*/
+
+.heading h1{
+    font-size:2.5vw;
+    font-weight:900;
+    font-family: 'Playfair Display', serif;
+}
+
+.paragraph{
+    font-size:x-large;
+    margin-top:3vw;
+    margin-left:10vw;
+    margin-right:10vw;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.body1{
+    margin:16vw;
+    text-align:center;
+}
+
+.start{
+    margin-top:5vw;
+}
+
+.start a{
+    border-radius:0.5vw;
+    font-size:x-large;
+    text-decoration: none;
+    padding: 1vw 3vw;
+    font-family:'Libre Baskerville', serif;
+    border: 0.05vw solid #2F2D2E;
+    background-color: #2F2D2E;
+}
+
+/*HOME PAGE END*/
+/*REFERENCES START*/
+
+.body5{
+    margin:10vw;
+    text-align:left;
+}
+
+.heading5 h1{
+    font-size:2.5vw;
+    font-family: 'Playfair Display', serif;
+}
+
+.references{
+    margin-top:5vw;
+    margin-left:20vw;
+}
+
+.references ol li{
+    font-family:'Libre Baskerville', serif;
+    font-size:x-large;
+    margin:1vw;
+}
+
+/*REFERENCES END*/
+/*ABOUT ME START*/
+.body4{
+    display:flex;
+    margin:10vw;
+    text-align:left;
+}
+
+.image4 img{
+    width:auto;
+    height:60vh;
+}
+
+.text4{
+    float:right;
+    margin-left:5vw;
+}
+
+.profile h1, .education h1{
+    font-size:2.5vw;
+    font-family: 'Playfair Display', serif;
+}
+
+.profileparagraph, .educationparagraph{
+    font-family:'Libre Baskerville', serif;
+    font-size:x-large;
+    margin:1vw;
+}
+/*ABOUT ME END*/
